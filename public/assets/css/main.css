@@ -1325,7 +1325,7 @@ ol {
   font-weight: 500;
   padding: 14px 30px;
   background-color: #2ed06e;
-  color: #fff;
+  color: #2b2727;
   border: none;
   -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
@@ -1393,7 +1393,7 @@ ol {
 
 .button .btn-alt:hover {
   background-color: #2ed06e !important;
-  color: #fff !important;
+  color: #2b2727 !important;
 }
 
 .align-left {
@@ -1696,7 +1696,7 @@ ol {
 
 .header.sticky .button .btn {
   background-color: #2ed06e;
-  color: #fff;
+  color: #2b2727;
 }
 
 .header.sticky .button .btn:hover {
@@ -1861,7 +1861,7 @@ ol {
 }
 
 .navbar-nav .nav-item a.active {
-  color: #fff;
+  color: #141313;
 }
 
 .navbar-nav .nav-item a.dd-menu::after {
@@ -2030,7 +2030,7 @@ ol {
 
 .sticky .button .btn {
   background-color: #2ed06e;
-  color: #fff;
+  color: #000000;
 }
 
 .sticky .button .btn:hover {
@@ -2047,7 +2047,7 @@ ol {
   }
   .header .button .signup {
     background-color: #2ed06e;
-    color: #fff;
+    color: #000000;
   }
   .header .button .signup:hover {
     background-color: #2ed06e;
@@ -2319,6 +2319,11 @@ ol {
     font-size: 26px;
     line-height: 40px;
   }
+  .our-benefits .row {
+    display: flex;
+    flex-direction: column-reverse; /* Moves image above text */
+}
+  
 }
 
 @media (max-width: 767px) {
@@ -5221,20 +5226,6 @@ blockquote span {
   margin-bottom: 30px; /* Space below the button */
 }
 
-.cta-content .btn {
-  background-color: #2ed06e;
-  color: white;
-  padding: 14px 30px;
-  font-size: 18px;
-  border-radius: 30px;
-  font-weight: 600;
-  display: inline-block;
-  transition: background 0.3s ease;
-}
-
-.cta-content .btn:hover {
-  background-color: #081828;
-}
 
 .cta-subheading {
   font-size: 24px;

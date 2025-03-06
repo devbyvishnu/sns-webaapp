@@ -1985,7 +1985,7 @@ ol {
 }
 
 .navbar-nav .nav-item .sub-menu > li.active > a {
-  color: #2ed06e !important;
+  color: #4d7c20 !important;
 }
 
 .navbar-nav .nav-item .sub-menu > li > a {
@@ -2091,7 +2091,7 @@ ol {
   -ms-transition: all 0.4s ease-out 0s;
   -o-transition: all 0.4s ease-out 0s;
   transition: all 0.4s ease-out 0s;
-  background-color: #0898E7;
+  background-color: #1f9952;
   border-radius: 5px; }
   @media (max-width: 767px) {
     .main-btn {
@@ -2100,16 +2100,8 @@ ol {
       line-height: 40px;
       font-size: 16px; } }
   .main-btn:hover {
-    background-color: rgba(8, 152, 231, 0.8);
+    background-color: rgba(12, 53, 15, 0.8);
     color: #fff; }
-  .main-btn.main-btn-2 {
-    background-color: #fff;
-    color: #0898E7;
-    border-color: #0898E7; }
-    .main-btn.main-btn-2:hover {
-      background-color: #0898E7;
-      border-color: #0898E7;
-      color: #fff; }
 
 
 /*===== Slider =====*/
@@ -2287,6 +2279,94 @@ ol {
 .freatures .content .button {
   text-align: center; /* Center-aligns the button */
 }
+
+.our-benefits {
+  background-color: #ffffff; /* New background color */
+  padding-top: 40px; /* Decreased margin on top */
+}
+
+.our-benefits .image img {
+  width: 100%;
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 1400px) {
+  .our-benefits .content {
+    padding-left: 50px; /* Slightly reduced padding */
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .our-benefits .content {
+    margin-top: 30px; /* Reduced margin */
+  }
+}
+
+@media (max-width: 767px) {
+  .our-benefits .content {
+    margin-top: 30px; /* Reduced margin */
+  }
+}
+
+.our-benefits .content .heading {
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 50px; /* Reduced margin */
+  line-height: 44px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .our-benefits .content .heading {
+    font-size: 26px;
+    line-height: 40px;
+  }
+}
+
+@media (max-width: 767px) {
+  .our-benefits .content .heading {
+    font-size: 22px;
+    line-height: 36px;
+  }
+  .our-benefits .row {
+    display: flex;
+    flex-direction: column-reverse; /* Moves image above text */
+}
+}
+
+.our-benefits .content .single-feature {
+  position: relative;
+  padding-left: 80px; /* Adjusted for better alignment */
+  margin-bottom: 40px; /* Reduced margin */
+}
+
+.our-benefits .content .single-feature:last-child {
+  margin: 0;
+}
+
+.our-benefits .content .single-feature .f-icon {
+  height: 60px;
+  width: 60px;
+  line-height: 60px;
+  text-align: center;
+  color: #fff;
+  background-color: #2ed06e; /* New icon background color */
+  border-radius: 50%;
+  position: absolute;
+  left: 0;
+  font-size: 26px;
+  top: 0;
+}
+
+.our-benefits .content .single-feature h4 {
+  font-size: 18px;
+  font-weight: 700;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.our-benefits .content .button {
+  text-align: center;
+}
+
 
 /*======================================
 	Services CSS
@@ -5096,3 +5176,99 @@ blockquote span {
 .footer .copyright-area p a:hover {
   color: #2ed06e;
 }
+
+/* Call to Action Section */
+.cta-section {
+  background-color: #F4F7FA; /* Matches the theme */
+  padding: 30px 0;
+}
+
+.cta-content {
+  padding-right: 40px;
+  text-align: left;
+}
+
+.cta-heading {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #081828;
+}
+
+.cta-content h4 {
+  font-size: 18px;
+  font-weight: 500;
+  color: #727272;
+  margin-bottom: 15px; /* Adds spacing between text lines */
+}
+
+/* Red Highlighted Text */
+.cta-highlight {
+  font-size: 18px;
+  font-weight: bold;
+  color: #d9534f; /* Red color */
+  margin-bottom: 25px; /* Adds extra space before the button */
+}
+
+.cta-content h4 a {
+  color: #0e582c;
+  text-decoration: underline;
+}
+
+/* Button Spacing */
+.cta-content .button {
+  margin-top: 30px; /* Space above the button */
+  margin-bottom: 30px; /* Space below the button */
+}
+
+.cta-content .btn {
+  background-color: #2ed06e;
+  color: white;
+  padding: 14px 30px;
+  font-size: 18px;
+  border-radius: 30px;
+  font-weight: 600;
+  display: inline-block;
+  transition: background 0.3s ease;
+}
+
+.cta-content .btn:hover {
+  background-color: #081828;
+}
+
+.cta-subheading {
+  font-size: 24px;
+  font-weight: 600;
+  margin-top: 40px; /* Increased spacing above "Why Choose Us?" */
+  color: #081828;
+}
+
+.cta-image {
+  text-align: right;
+}
+
+.cta-image img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+/* Responsive Design */
+@media (max-width: 991px) {
+  .cta-content {
+      padding-right: 0;
+      text-align: center;
+  }
+
+  .cta-image {
+      text-align: center;
+      margin-top: 30px;
+  }
+
+  .cta-content .button {
+      margin-top: 25px;
+      margin-bottom: 25px;
+  }
+}
+
+
+

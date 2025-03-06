@@ -2282,7 +2282,7 @@ ol {
 
 .our-benefits {
   background-color: #ffffff; /* New background color */
-  padding-top: 40px; /* Decreased margin on top */
+  padding-top: 0px; /* Decreased margin on top */
 }
 
 .our-benefits .image img {
@@ -5269,6 +5269,9 @@ blockquote span {
       margin-bottom: 25px;
   }
 }
+
+
+
 
 
 
